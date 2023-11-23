@@ -8,16 +8,21 @@
           revision="main" />
 
   <!-- Device -->
-  <project name="android_device_oneplus_wly" path="device/oneplus/wly" remote="negroni-development" />
-  <project name="android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" remote="negroni-development" />
+  <project name="android_device_oneplus_wly" path="device/oneplus/wly" remote="negroni-development" revision="lineage-20" />
+  <project name="android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" remote="negroni-development" revision="lineage-20" />
 
   <!-- Kernel -->
-  <project name="android_kernel_oneplus_sm8450" path="kernel/oneplus/sm8450" remote="negroni-development" />
+  <project name="android_kernel_oneplus_sm8450" path="kernel/oneplus/sm8450" remote="negroni-development" revision="NE2217_13.1.0.9" />
 
   <!-- Kernel (Modules) -->
-  <project name="android_kernel_oneplus_sm8450-modules" path="kernel/oneplus/sm8450-modules" remote="negroni-development" />
+  <project name="android_kernel_oneplus_sm8450-modules" path="kernel/oneplus/sm8450-modules" remote="negroni-development" revision="NE2217_13.1.0.9" />
 
   <!-- Kernel (DTS) -->
-  <project name="android_kernel_oneplus_sm8450-devicetrees" path="kernel/oneplus/sm8450-devicetrees" remote="negroni-development" />
+  <project name="android_kernel_oneplus_sm8450-devicetrees" path="kernel/oneplus/sm8450-devicetrees" remote="negroni-development" revision="lineage-20" />
+
+  <!-- Vendor -->
+  <project name="android_vendor_oneplus_wly" path="vendor/oneplus/wly" remote="negroni-development" />
+  <project name="android_vendor_oneplus_sm8450-common" path="vendor/oneplus/sm8450-common" remote="negroni-development" />
+
 
 </manifest>

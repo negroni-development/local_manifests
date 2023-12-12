@@ -33,7 +33,7 @@
            fetch="https://gitlab.com" />
   
   <include name="kernel-platform.xml"/>
-  <include name="waipio.xml"/>
+ <!-- <include name="waipio.xml"/> -->
   <include name="wly.xml"/>
 
 </manifest>

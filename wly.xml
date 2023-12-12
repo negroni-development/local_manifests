@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="negroni-development"
-          fetch="https://github.com/negroni-development"
-          sync-c="true"
-          sync-tags="false"
-          revision="main" />
-
   <!-- Device -->
   <project name="android_device_oneplus_wly" path="device/oneplus/wly" remote="negroni-development" revision="lineage-20" />
   <project name="android_device_oneplus_sm8450-common" path="device/oneplus/sm8450-common" remote="negroni-development" revision="lineage-20" />
